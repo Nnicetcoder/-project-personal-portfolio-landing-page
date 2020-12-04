@@ -23,7 +23,7 @@ body{
 }
 .name {
 	color: lightblue;
-	
+
 }
 #home img {
 	float: right;
@@ -94,22 +94,32 @@ body{
 
 }
 #name {
-	padding: 20px 20px 20px 400px;
-	width: 400px;
+	padding: 4px 4px 4px 4px;
+	margin: 10px 10px 10px 350px;
+	width: 250px;
+	border-radius: 3px;
+	
 }
 #email {
-	padding: 20px 20px 20px 400px;
-	width: 400px;
+	padding: 4px 4px 4px 4px;
+	margin: 10px 10px 10px 350px; 
+	width: 250px;
+	border-radius: 3px;
+	
 }
 
 
-#messagearea {
-	padding: 20px 20px 0px 400px;
-	width: 400px;
-	height: 100px;
+#text-area {
+	padding: 4px 4px 4px 4px;
+	width: 250px;
+	margin: 10px 10px 10px 350px;
+	border-radius: 3px;
 }
 
 #submit{
-	padding: 10px 20px 20px 400px;
-	width: 100px;
+	padding: 4px 4px 4px 4px;
+	margin: 10px 10px 10px 350px;
+	width: 60px;
+	height: 30px;
+	border-radius: 3px;
 }
