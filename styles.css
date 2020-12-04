@@ -1,6 +1,17 @@
 body{
-	background-color: 
+	background-color:#ffffff; 
 }
+#navbar ul {
+
+}
+#navbar ul li {
+	float: left;
+}
+#navbar ul li a {
+  display: block;
+  padding: 8px;
+  background-color: ;
+}	 
 #home{
 	height:100%;
 	width: 80%;
@@ -29,16 +40,18 @@ body{
 	padding: 4px 4px 4px 4px;
 	margin: 10px 10px 10px 20px;
 	width: 80px;
-	height: 40px;
+	height: 30px;
+	cursor: pointer;
 	border-radius: 3px;
-	text-shadow: 2px 2px 2px #ffffff;
+	text-shadow: 4px 4px 7px #111111;
 }
+
 #home img {
 	float: right;
     width: 340px;
     height: 250px;
     padding-left: 350px;
-    margin-top: -200px;
+    margin-top: -230px;
     border-radius: 100px;
 }
 #about {
@@ -47,23 +60,34 @@ body{
 	width: 90%;
 	padding: 20px;
 	margin:10px;
+	margin-bottom: 50px;
 
 }
 #about h2 {
-	color: lightblue;
+	color: blue;
 	font-size: 200%;
 	font-weight: 300;
 	text-align: center;
 	text-decoration: underline;
+
 }
-#about p {
+#profile img {
+	float: left;
+    width: 340px;
+    height: 250px;
+    padding-right: 50px;
+    margin-: ;
+    border-radius: 100px;
+}
+#paragraph {
 	font-family: serif;
-	font-size: 150%;
-	text-align: center;
+	font-size: 130%;
+	text-align: left;
+	margin-bottom:  150px;
 
 }
 #skills {
-	color: lightblue;
+	color: blue;
 	font-weight: 200;
 	font-family: serif;
 	text-align: center;
@@ -79,7 +103,7 @@ body{
 	font-family: serif;
 	text-align: center;
 	text-decoration: underline;
-	color: lightblue;
+	color: blue;
 
 }
 #hobbies img {
@@ -115,6 +139,7 @@ body{
 	border-radius: 3px;
 	
 }
+#email:focus{}
 
 
 #text-area {
@@ -124,10 +149,13 @@ body{
 	border-radius: 3px;
 }
 
+
 #submit{
 	padding: 4px 4px 4px 4px;
 	margin: 10px 10px 10px 350px;
 	width: 60px;
 	height: 30px;
 	border-radius: 3px;
+	cursor: pointer;
+	text-shadow: 4px 4px 7px #111111;
 }
