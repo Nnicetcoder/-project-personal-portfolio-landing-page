@@ -21,12 +21,17 @@ body{
 	text-align: left;
 	padding-top: 20px;
 }
+.name {
+	color: lightblue;
+	
+}
 #home img {
 	float: right;
-    width: 240px;
-    height: 280px;
+    width: 340px;
+    height: 250px;
     padding-left: 350px;
     margin-top: -200px;
+    border-radius: 100px;
 }
 #about {
 	height: 100%;
@@ -37,7 +42,7 @@ body{
 
 }
 #about h2 {
-	color: blue;
+	color: lightblue;
 	font-size: 200%;
 	font-weight: 300;
 	text-align: center;
@@ -49,6 +54,13 @@ body{
 	text-align: center;
 
 }
+#skills {
+	color: lightblue;
+	font-weight: 200;
+	font-family: serif;
+	text-align: center;
+	text-decoration:underline;
+}
 #hobbies {
 	margin: 20px 20px 20px 60px;
 
@@ -59,7 +71,7 @@ body{
 	font-family: serif;
 	text-align: center;
 	text-decoration: underline;
-	color: blue;
+	color: lightblue;
 
 }
 #hobbies img {
@@ -69,6 +81,8 @@ body{
 	padding: 10PX;
 }
 #contact {
+	margin: 20px;
+	padding: 10px;
 
 }
 #contact h2 {
@@ -78,4 +92,24 @@ body{
 	font-weight: 200;
 	font-family: serif;
 
+}
+#name {
+	padding: 20px 20px 20px 400px;
+	width: 400px;
+}
+#email {
+	padding: 20px 20px 20px 400px;
+	width: 400px;
+}
+
+
+#messagearea {
+	padding: 20px 20px 0px 400px;
+	width: 400px;
+	height: 100px;
+}
+
+#submit{
+	padding: 10px 20px 20px 400px;
+	width: 100px;
 }
