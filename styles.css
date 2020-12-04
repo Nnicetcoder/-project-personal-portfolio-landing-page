@@ -13,15 +13,17 @@ body{
 .logo {
 	cursor: pointer;
 }
-#navbar  {
+.navbar  {
 	list-style: none;
 }
-#navbar ul li {
+.navbar li {
 	display: inline-block;
 	padding: 0px 20px;
+	text-decoration: none;
+	cursor: pointer;
 	
 }
-#navbar ul li a {
+.navbar li a: hover {
 	transition: all 0.3s ease 0s;
   }
 #home{
@@ -43,9 +45,10 @@ body{
 	font-weight: 300;
 	text-align: left;
 	padding-top: 20px;
+	padding-left: 100px;
 }
 .name {
-	color: blue;
+	color: #0088ff;
 
 }
 #home button {
