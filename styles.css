@@ -22,8 +22,16 @@ body{
 	padding-top: 20px;
 }
 .name {
-	color: lightblue;
+	color: blue;
 
+}
+#home button {
+	padding: 4px 4px 4px 4px;
+	margin: 10px 10px 10px 20px;
+	width: 80px;
+	height: 40px;
+	border-radius: 3px;
+	text-shadow: 2px 2px 2px #ffffff;
 }
 #home img {
 	float: right;
