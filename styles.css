@@ -50,6 +50,8 @@ body{
 
 }
 #hobbies {
+	margin: 20px 20px 20px 60px;
+
 
 }
 #hobbies h2{
@@ -57,11 +59,14 @@ body{
 	font-family: serif;
 	text-align: center;
 	text-decoration: underline;
+	color: blue;
 
 }
 #hobbies img {
-	width: 300px;
+	width: 280px;
+	height:250px ;
 	float: left;
+	padding: 10PX;
 }
 #contact {
 
