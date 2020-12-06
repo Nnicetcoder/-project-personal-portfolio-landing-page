@@ -168,22 +168,40 @@ label .logo {
 }
 .skills_bar .bar .progress_line {
 	position: relative;
-	height: 10px;
+	height: 30px;
 	width: 100%;
 	background-color: #f0f0f0;
 	padding-left: 5px;
 	box-shadow: inset 0px 1px 1px rgba(0,0,0,0.05),
 	                  0px 1px rgba(255,255,255,0.8);
 }
-.bar .progress_line span {
-	position: absolute;
-	height: 100%;
-	width: 80%;
+
+.bar .progress_line_html {
+	position: relative;
+	height: ;
+	width: 75%;
+	background:#6665ee; 
+	border-radius: 10px;
+}
+.bar .progress_line_css {
+	width:70%;
+	background: #6665ee;
+	border-radius: 10px; 
+}
+.bar .progress_line_leadership {
+	width: 70%;
 	background: #6665ee;
 	border-radius: 10px;
-	margin-left: 20px;
-	padding-right: -30px;
-	align-items: center;
+}
+.bar .progress_line_teamwork {
+	width: 70%;
+	background: #6665ee;
+	border-radius: 10px;
+}
+.bar .progress_line_guitar {
+	width: 70%;
+	background: #6665ee;
+	border-radius: 10px;
 }
 
 .bar .progress_line span::before {
