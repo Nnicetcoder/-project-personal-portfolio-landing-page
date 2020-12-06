@@ -47,6 +47,10 @@ label .logo {
 	font-family: sans-serif;
 	margin-bottom: 20px;
 }
+.navbar ul li:hover {
+	background: 
+}
+
 .navbar ul li a {
 	color: white;
 	text-decoration: none;
@@ -55,6 +59,7 @@ label .logo {
 }
 .navbar li a:hover {
 	transition: all 0.3s ease 0s;
+	color: blue;
   }
 #home{
 	height:100%;
@@ -92,7 +97,9 @@ label .logo {
  	color:white;
 	background-color: #0082e6;
 }
-
+#home button:hover{
+	background: blue;
+}
 #home img {
 	float: right;
     width: 340px;
@@ -257,6 +264,9 @@ label .logo {
 	border-radius: 3px;
 	
 }
+
+
+
 #email {
 	padding: 4px 4px 4px 4px;
 	margin: 10px 10px 10px 350px; 
@@ -264,7 +274,10 @@ label .logo {
 	border-radius: 3px;
 	
 }
-#email:focus{}
+#email:focus{
+	border-bottom: 5px #0082e6;
+
+}
 
 
 #text-area {
@@ -285,4 +298,7 @@ label .logo {
 	color: white;
 	background-color: #0082e6;
 	text-shadow: 4px 4px 7px #111111;
+}
+#submit:hover {
+	background:blue;
 }
