@@ -17,6 +17,7 @@ label .logo {
 	font-weight: 500;
 	margin-top: 20px;
 	color:white;
+	line-height: 50px;
 
 }
 .navbar  {
@@ -28,10 +29,13 @@ label .logo {
 }
 .navbar ul {
 	color: white;
-
-
-
+	text-decoration: none;
+	line-height: 30px;
+	padding-left: 600px;
+	padding-bottom: 30px;
 }
+
+
 .navbar li {
 	display: inline-block;
 	padding: 0px 20px;
@@ -40,6 +44,11 @@ label .logo {
 	font-weight: 300;
 	font-family: sans-serif;
 	
+}
+.navbar li a {
+	color: white;
+	text-decoration: none;
+	font-family: 
 }
 .navbar li a:hover {
 	transition: all 0.3s ease 0s;
