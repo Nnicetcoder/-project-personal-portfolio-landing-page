@@ -146,11 +146,63 @@ label .logo {
 	font-family: serif;
 }
 .skills_bar {
+	padding-right: 25px 30px;
 	width: 600px;
 	background: #fff;
 	box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
 	margin: 40px 250px;
 
+}
+.skills_bar .bar {
+	margin: 20px 0px;
+}
+.skills_bar .bar:first-child{
+	margin-top: 10px;
+}
+.skills_bar .bar .info span {
+	font-size:17px;
+	font-weight: 500;
+
+}
+.skills_bar .bar .progress_line {
+	position: relative;
+	height: 10px;
+	width: 100%;
+	background-color: #f0f0f0;
+	padding-left: 5px;
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,0.05),
+	                  0px 1px rgba(255,255,255,0.8);
+}
+.bar .progress_line span {
+	position: absolute;
+	height: 100%;
+	width: 80%;
+	background: #6665ee;
+	border-radius: 10px;
+	margin-left: 20px;
+}
+
+.bar .progress_line span::before {
+	position:absolute; 
+	content:"";
+	top:-10px;
+	right:0px;
+	height:0px ;
+	width:0px;
+	border:7px solid transparent;
+	border-bottom :0px;
+	border-right-width:0px;
+	border-top-color:#000;
+
+}
+.bar .progress_line span::after {
+	position:absolute; 
+	content:"80%";
+	top:-10px;
+	background:#000 ;
+	color:#fff;
+	font-size: 12px;
+	font-weight: 500;
 }
 #hobbies {
 	margin: 20px 20px 20px 60px;
