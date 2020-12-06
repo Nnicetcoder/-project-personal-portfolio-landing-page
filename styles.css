@@ -11,14 +11,18 @@ body{
 
 }
 
-label .logo {
+.navbar .logo {
 	cursor: pointer;
 	font-size: 25px;
-	padding: 0px 50px ;
+	padding: 0px 20px ;
 	font-family: ;
 	font-weight: bold;
 	line-height: 60px;
 
+}
+.navbar .logo:hover {
+	color: blue;
+	background: white;
 }
 .navbar  {
 	list-style: none;
@@ -32,7 +36,7 @@ label .logo {
 .navbar ul {
 	float: right;
 	color: white;
-	padding-left: 600px;
+	padding-left: 500px;
 	margin-right: 0px;
 	
 }
@@ -60,6 +64,7 @@ label .logo {
 .navbar li a:hover {
 	transition: all 0.3s ease 0s;
 	color: blue;
+	background: white;
   }
 #home{
 	height:100%;
@@ -107,6 +112,9 @@ label .logo {
     padding-left: 350px;
     margin-top: -230px;
     border-radius: 100px;
+}
+#home img:hover{
+	border: 2px solid black;
 }
 #about {
 	height: 100%;
