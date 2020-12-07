@@ -1,0 +1,29 @@
+body{
+	background: #f0f0f0;
+}
+p{
+	font-family: serif;
+}
+#header{
+	text-decoration: underline;
+}
+#activity{
+	color: blue;
+	font-family: verdana;
+}
+#food{
+	color: blue;
+	font-family: verdana;
+}
+#drink{
+	color: blue;
+	font-family: verdana;
+}
+#entertainment{
+	color: blue;
+	font-family: verdana;
+}
+#sports{
+	color: blue;
+	font-family: verdana;
+}

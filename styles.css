@@ -113,9 +113,7 @@ body{
     margin-top: -230px;
     border-radius: 100px;
 }
-#home img:hover{
-	border: 2px solid black;
-}
+
 #about {
 	height: 100%;
 	font-family: serif;
@@ -233,8 +231,45 @@ body{
 	font-size: 12px;
 	font-weight: 500;
 }
+.news_paper{
+	width: 80px;
+	height: 40px;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	border:2px solid #0082e6;
+	font-weight: 300;
+	text-decoration: none;
+
+}
+.new_paper a {
+	text-decoration: none;
+}
+.news_paper:hover{
+	background: #0082e6;
+	color: white;
+}
+.favourites{
+	width: 80px;
+	height: 40px;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	border:2px solid #0082e6;
+	font-weight: 300;
+	list-style: none;
+}
+.favourites a {
+	list-style: none;
+}
+.favourites:hover{
+	background: #0082e6;
+	color: white;
+}
 #hobbies {
-	margin: 20px 20px 20px 60px;
+	margin: 20px 10px 20px 50px;
 
 
 }
@@ -247,10 +282,13 @@ body{
 
 }
 #hobbies img {
-	width: 280px;
-	height:250px ;
+	width: 290px;
+	height:230px ;
 	float: left;
-	padding: 10PX;
+	padding: 10px;
+}
+#hobbies img:hover{
+	border: 2px solid black;
 }
 #contact {
 	margin: 20px;
