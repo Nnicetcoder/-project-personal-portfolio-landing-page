@@ -15,3 +15,4 @@ Deploy your site onto GitHub pages so that a live site can be viewed at your-use
 
 This is my project https://nnicetcoder.github.io/-project-personal-portfolio-landing-page/.
 
+the links to my previous projects is in the page
